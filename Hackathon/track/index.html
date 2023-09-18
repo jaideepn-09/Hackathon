@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wool Tracking</title>
+</head>
+<body>
+    <header>
+        <h1>Wool Tracking</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="tracking-form">
+            <h2>Track Wool Bales</h2>
+            <form>
+                <label for="bale-id">Enter Bale ID:</label>
+                <input type="text" id="bale-id" name="bale-id" required>
+                <button type="submit">Track</button>
+            </form>
+        </section>
+
+        <section class="tracking-results">
+            <h2>Tracking Results</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bale ID</th>
+                        <th>Current Location</th>
+                        <th>Storage Condition</th>
+                        <th>Last Update</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Tracking results will be displayed here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Wool Tracking</p>
+    </footer>
+</body>
+</html>
